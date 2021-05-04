@@ -9,16 +9,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>No TV Timeouts</h1>
-    <p>Welcome to my site for D3 men's basketball statistics'. I created it to fill in the stats gap for Division III hoops and was inspired by <a href="https://www.kenpom.com">KenPom</a>, <a href="https://www.barttorvik.com">barttorvik</a>, and <a href="https://www.herhoopstats.com">Her Hoop Stats</a>.</p>
+    <p>Welcome to my site for D3 men's basketball statistics. I created it to fill in the stats gap for Division III hoops and was inspired by <a href="https://www.kenpom.com">KenPom</a>, <a href="https://www.barttorvik.com">barttorvik</a>, and <a href="https://www.herhoopstats.com">Her Hoop Stats</a>.</p>
     <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
     <p>
       <Link to="/about/">Go to my about page.</Link> <br />
       <Link to="/using-advanced-stats/">Go to "Using advanced stats"</Link>
