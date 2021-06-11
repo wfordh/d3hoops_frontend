@@ -5,6 +5,14 @@ module.exports = {
     author: `@wfordh`,
   },
   plugins: [
+    {
+      resolve: "gatsby-source-pg",
+      options: {
+        connectionString: "foobar", // fill in
+        schema: "d3_hoops",
+        refetchInterval: 3600, // Refetch data every hour
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
