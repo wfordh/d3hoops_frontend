@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: "gatsby-source-pg",
       options: {
-        connectionString: "foobar", // fill in
+        connectionString: `postgres://{process.env.DB_USER}:@{process.env.DB_HOST}:{process.env.DB_PORT}/{process.env.DB_NAME}`, // fill in. need ssl?
         schema: "d3_hoops",
         refetchInterval: 3600, // Refetch data every hour
       },
